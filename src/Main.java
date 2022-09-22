@@ -1,7 +1,8 @@
 public class Main {
   public static void main(String[] args) {
-    double itemPrice = 125.95;
     double shippingFee = 0.02;
+    System.out.println("Enter the price of your item: " );
+    double itemPrice = 9.50;
 
     if (itemPrice <= 100) {
       double shippingCost = shippingFee * itemPrice;
